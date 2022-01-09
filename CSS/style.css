@@ -32,11 +32,17 @@ html {
  .hand {
     width: 50%;
     height: 0.5rem;
-    background: rgb(236, 100, 9);
+    background: rgb(228, 101, 17);
     position: absolute;
     top: 50%;
-    transform-origin: 100%;
     transform: rotate(90deg);
+    transform-origin: 100%;
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
+  .hour-hand{
+      height: 1rem;
+  }
+  .second-hand{
+    height: 0.2rem;
+}
