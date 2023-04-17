@@ -1,48 +1,48 @@
 html {
-    font-size: 10px;
-  }
+  font-size: 10px;
+}
 
-  body {
-    margin: 0;
-    font-size: 2rem;
-    display: flex;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
-  }
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
 
-  .clock {
-    width: 60rem;
-    height: 60rem;
-    border: 1.5rem solid rgb(182, 177, 177);
-    border-radius: 50%;
-    margin: 50px auto;
-    position: relative;
-    padding: 2rem;
-    box-shadow: 5px 10px 18px #888888;
-  }
+.clock {
+  width: 60rem;
+  height: 60rem;
+  border: 1.5rem solid rgb(182, 177, 177);
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 5px 10px 18px #888888;
+}
 
- .clock-face {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: translateY(-3px); /* account for the height of the clock hands */
- }
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px); /* account for the height of the clock hands */
+}
 
- .hand {
-    width: 50%;
-    height: 0.5rem;
-    background: rgb(228, 101, 17);
-    position: absolute;
-    top: 50%;
-    transform: rotate(90deg);
-    transform-origin: 100%;
-    transition: all 0.05s;
-    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
-  }
-  .hour-hand{
-      height: 1rem;
-  }
-  .second-hand{
-    height: 0.2rem;
+.hand {
+  width: 50%;
+  height: 0.5rem;
+  background: rgb(228, 101, 17);
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.02s;
+  transition-timing-function: cubic-bezier(0, 4.71, 1, 1);
+}
+.hour-hand {
+  height: 0.8rem;
+}
+.second-hand {
+  height: 0.2rem;
 }
